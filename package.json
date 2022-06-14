@@ -5,13 +5,12 @@
     "description": "Generates Rule Tiles from Sprite Sheets",
     "unity": "2021.3",
     "documentationUrl": "",
-   "keywords": [
-      "RuleTile",
-      "SpriteSheet"
+    "keywords": [
+        "RuleTile",
+        "SpriteSheet"
     ],
     "author": {
-      "name": "Faik",
-      "email": "mfaikekclr@gmail.com",
+        "name": "Faik",
+        "email": "mfaikekclr@gmail.com",
     }
-}
-  
+}  
