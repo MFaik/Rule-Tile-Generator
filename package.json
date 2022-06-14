@@ -4,13 +4,13 @@
     "displayName": "Rule Tile Generator",
     "description": "Generates Rule Tiles from Sprite Sheets",
     "unity": "2021.3",
-    "documentationUrl": "",
+    "documentationUrl": "https://github.com/MFaik/Rule-Tile-Generator/blob/master/README.md",
     "keywords": [
         "RuleTile",
         "SpriteSheet"
     ],
     "author": {
         "name": "Faik",
-        "email": "mfaikekclr@gmail.com",
+        "email": "m.faikekclr@gmail.com"
     }
 }  
