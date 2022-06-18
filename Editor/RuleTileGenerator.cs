@@ -8,6 +8,7 @@ public class RuleTileGenerator
     [MenuItem("Assets/Create/Rule Tile from Sprite Sheet", false, 350)]
     private static void CreateRuleTileFromSpriteSheet()
     {
+#if TILEMAP_EXTRAS_2_2_2_OR_NEWER
         Sprite[] s = System.Array.ConvertAll(AssetDatabase.LoadAllAssetRepresentationsAtPath(AssetDatabase.GetAssetPath (Selection.activeObject)) as Object[]
                 , item => item as Sprite);
         if(s.Length != 121){
@@ -215,6 +216,9 @@ public class RuleTileGenerator
             ruleTile.m_TilingRules.Add(centralTilingRule);
         
         AssetDatabase.CreateAsset(ruleTile, Path.GetDirectoryName(AssetDatabase.GetAssetPath(Selection.activeObject))+"/"+Selection.activeObject.name+"RuleTile.asset");
+#else
+        Debug.LogError("Tilemap Extras are either outdated or doesn't exist");
+#endif
     }
 
     [MenuItem("Assets/Create/Rule Tile from Sprite Sheet", true)]
