@@ -1,4 +1,17 @@
 # Rule Tile Generator
+## How to download :
+  ### - Add package from git (recommended way):
+ 1) Open the package manager from Window > Package Manager
+ 2) Click the plus button on the top left
+ 3) Select "Add package from git URL..."
+ 4) Paste this link: https://github.com/MFaik/Rule-Tile-Generator.git
+ 
+  ### - Download the package
+  [Link](https://github.com/MFaik/Rule-Tile-Generator/raw/gh-pages/Rule%20Tile%20Generator.unitypackage)
+  
+  Left click the downloaded package file
+
+## How to use :
 1) Make a spritesheet in this format:
 
 ![filled](https://user-images.githubusercontent.com/19433863/173577012-fa87e0fc-859b-4a7e-be74-855d68fc3bfb.png)
@@ -10,3 +23,9 @@
 3) When the sprite sheet is ready, right click the sprite and click Create > Rule Tile from Multiple Sprite
 
 ... and you are done.
+
+
+## Requirements : 
+Tilemap Extras 2.2.2 or newer
+
+Unity
