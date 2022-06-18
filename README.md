@@ -5,11 +5,6 @@
  2) Click the plus button on the top left
  3) Select "Add package from git URL..."
  4) Paste this link: https://github.com/MFaik/Rule-Tile-Generator.git
- 
-  ### - Download the package
-  [Link](https://github.com/MFaik/Rule-Tile-Generator/raw/gh-pages/Rule%20Tile%20Generator.unitypackage)
-  
-  Left click the downloaded package file
 
 ## How to use :
 1) Make a spritesheet in this format:
