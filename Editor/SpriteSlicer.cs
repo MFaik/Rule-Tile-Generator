@@ -63,7 +63,7 @@ public class SpriteSlicer : EditorWindow
         return true;
     }
 
-    public int InputWidth,InputHeight;
+    public int InputWidth = 8,InputHeight = 8;
     public bool Confirmed = false;
 
     private void OnGUI() {
