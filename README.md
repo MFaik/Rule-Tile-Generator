@@ -8,7 +8,7 @@
 
 ## How to use :
   ### Mass Slicing Sprites :
-To slice multiple sprites at once right click the sprite in the assets menu and click Editor Tools > Slice Sprite
+To slice multiple sprites at once right click the sprite in the assets menu and click Editor Tools > Slice Sprites
 
 After that you can enter the size of the tiles and it will slice the sprite. 
 
