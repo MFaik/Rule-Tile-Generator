@@ -5,7 +5,7 @@ using UnityEditor;
 
 public class RuleTileGenerator
 {
-    [MenuItem("Assets/Create/Rule Tile from Sprite Sheet", false, 350)]
+    [MenuItem("Assets/EditorTools/Rule Tile from Sprite Sheet")]
     private static void CreateRuleTileFromSpriteSheet()
     {
 #if TILEMAP_EXTRAS_2_2_2_OR_NEWER
@@ -221,7 +221,7 @@ public class RuleTileGenerator
 #endif
     }
 
-    [MenuItem("Assets/Create/Rule Tile from Sprite Sheet", true)]
+    [MenuItem("Assets/EditorTools/Rule Tile from Sprite Sheet", true)]
     private static bool CreateRuleTileFromSpriteSheetValidation()
     {
         var selection = Selection.objects;
