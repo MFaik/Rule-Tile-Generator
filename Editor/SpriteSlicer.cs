@@ -5,7 +5,7 @@ using System.Collections.Generic;
      
 public class SpriteSlicer : EditorWindow 
 {
-    [MenuItem("Assets/EditorTools/SliceSprites")]
+    [MenuItem("Assets/EditorTools/Slice Sprites")]
     static void SliceSprites()
     {
         (int sliceWidth, int sliceHeight, bool confirmed) = Open();
@@ -52,7 +52,7 @@ public class SpriteSlicer : EditorWindow
         }
     }
 
-    [MenuItem("Assets/EditorTools/SliceSprites", true)]
+    [MenuItem("Assets/EditorTools/Slice Sprites", true)]
     private static bool SliceSpritesValidation()
     {
         foreach(var selectObject in Selection.objects){
