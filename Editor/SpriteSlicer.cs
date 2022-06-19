@@ -68,12 +68,12 @@ public class SpriteSlicer : EditorWindow
 
     private void OnGUI() {
         EditorGUILayout.BeginHorizontal();
-            EditorGUILayout.LabelField("SpriteWidth");
+            EditorGUILayout.LabelField("Tile Width");
             InputWidth = EditorGUILayout.IntField(InputWidth);
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal();
-            EditorGUILayout.LabelField("SpriteHeight");
+            EditorGUILayout.LabelField("Tile Height");
             InputHeight = EditorGUILayout.IntField(InputHeight);
         EditorGUILayout.EndHorizontal();
 
